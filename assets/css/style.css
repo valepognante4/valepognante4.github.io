@@ -630,3 +630,20 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  display: block !important;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-item-info {
+  z-index: 2;
+}
+
